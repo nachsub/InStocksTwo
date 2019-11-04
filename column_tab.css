@@ -1,0 +1,12 @@
+.tabs {
+    width: 260px;
+}
+
+.tabs ul {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.tabs li+li {
+    margin-left: 0;
+}
