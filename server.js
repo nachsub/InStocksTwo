@@ -57,8 +57,8 @@ io.on('connection', (socket) => {
             console.log("user saved");
             socket.emit('registered', token);
         }).catch((err) => {
-           callback(false);
             console.log("User saving failed", err);
+           callback(false);
         });
     });
 

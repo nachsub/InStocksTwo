@@ -1,0 +1,24 @@
+.bla {
+    padding-left: 20px;
+}
+
+.graph {
+    float: right;
+    position: relative;
+}
+
+.graph-left {
+    float: left;
+    position: relative;
+}
+
+.boom {
+    float: left;
+    position: relative;
+}
+
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

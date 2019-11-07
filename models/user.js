@@ -38,16 +38,13 @@ var UserSchema = new mongoose.Schema({
   }],
   stocks: [{
     id: {
-      type: Number,
-      required: true
+      type: Number
     },
     name: {
-      type: String,
-      required: true
+      type: String
     },
     quantity: {
-      type: Number,
-      required: true
+      type: Number
     }
   }
   ]

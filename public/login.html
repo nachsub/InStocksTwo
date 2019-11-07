@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>InStock</title>
+		
+		<link rel="stylesheet" href="styles/login.css">
+	</head>
+	<body>
+		<p id="message"></p>
+        
+        <form id="signIn">
+                <h3 class="formTitle">Log in</h3>
+                <input id="email" type="email" placeholder="Email" autofocus required>
+                <input id="password" type="password" placeholder="Password" required>
+				<input id="signInButton" type="submit" value="Sign In">
+		</form>
+
+		<script src="/socket.io/socket.io.js"></script>
+        <script src="/js/libs/jquery-3.3.1.min.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/login.js"></script>
+	</body>
+
+</html>
